@@ -1,0 +1,1 @@
+document.querySelectorAll(".dropdown-menu").forEach((e=>{const s=e.querySelector(".dropdown");e.addEventListener("mouseenter",(()=>{s.classList.add("visible")})),e.addEventListener("mouseleave",(()=>{s.classList.remove("visible")}))}));

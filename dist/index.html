@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic UI</title>
-    <script src="main.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div>menu1</div>
-        <div>menu2</div>
-        <div>menu3</div>
-    </header>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dynamic UI</title>
+		<script src="main.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="dropdown-menu">
+				menu1
+				<div class="dropdown">
+					<div>item1</div>
+					<div>item2</div>
+					<div>item3</div>
+				</div>
+			</div>
+            <div class="dropdown-menu">
+				menu2
+				<div class="dropdown">
+					<div>item1</div>
+					<div>item2</div>
+					<div>item3</div>
+				</div>
+			</div>
+            <div class="dropdown-menu">
+				menu3
+				<div class="dropdown">
+					<div>item1</div>
+					<div>item2</div>
+					<div>item3</div>
+				</div>
+			</div>
+		</header>
+	</body>
 </html>
